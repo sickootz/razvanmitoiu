@@ -6,3 +6,4 @@
 .awards-image-panel{border-left:0;padding-left:0}.awards-poster{display:block;width:100%;height:auto}.awards-image-panel>a{display:block}
 
 dialog.awards-viewer{width:min(1100px,94vw);max-width:94vw;max-height:92vh;overflow:auto;background:#fff;padding:16px}dialog.awards-viewer img{width:100%;height:auto;max-width:none;max-height:none}dialog.awards-viewer .controls{position:sticky;top:-16px;background:#fff;z-index:1;padding:10px 0;justify-content:flex-end}dialog.awards-viewer [data-prev],dialog.awards-viewer [data-next]{display:none}
+.gallery.other-media-gallery{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:22px;columns:auto;align-items:start}.other-media-gallery figure{margin:0;min-width:0}@media(max-width:760px){.gallery.other-media-gallery{grid-template-columns:repeat(2,minmax(0,1fr))}}@media(max-width:440px){.gallery.other-media-gallery{grid-template-columns:1fr}}
